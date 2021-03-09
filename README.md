@@ -1,9 +1,7 @@
 Chinese Namede Entity Recognition
 ==
 model: Bert+BiLstm  
----
-loss function: Cross Entropy Error Function
----
+loss function: Cross Entropy Error Function<br>
 Chinese NER datasets: 
 ----
 *  chinese weibo dataset<br>
