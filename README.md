@@ -1,4 +1,6 @@
-Chinese NER, model: Bert+BiLstm
+Chinese Namede Entity Recognition
+===
+model: Bert+BiLstm
 Chinese NER datasets: 
 (1)  chinese weibo dataset
 (2)  chinese ontonote4
