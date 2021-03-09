@@ -1,0 +1,1 @@
+{"B-GPE": 0, "M-GPE": 1, "E-GPE": 2, "O": 3, "B-PER": 4, "M-PER": 5, "E-PER": 6, "B-LOC": 7, "M-LOC": 8, "E-LOC": 9, "B-ORG": 10, "M-ORG": 11, "E-ORG": 12, "S-GPE": 13, "S-LOC": 14, "S-PER": 15, "S-ORG": 16, "[SEP]": 17, "[CLS]": 18}

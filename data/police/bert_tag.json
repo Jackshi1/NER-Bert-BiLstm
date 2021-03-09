@@ -1,0 +1,1 @@
+{"B-TIME": 0, "M-TIME": 1, "E-TIME": 2, "O": 3, "B-LOC": 4, "E-LOC": 5, "M-LOC": 6, "B-OBJECT": 7, "M-OBJECT": 8, "E-OBJECT": 9, "B-TARGET": 10, "M-TARGET": 11, "E-TARGET": 12, "S-LOC": 13, "[SEP]": 14, "[CLS]": 15}
