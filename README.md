@@ -32,8 +32,6 @@ result
 |datasets |  P  |  R  |  F  |
 |-------- |-----|-----|-----|
 |  weibo  |0.6558|0.6304|0.6429|
-|  MSRA   |     |     |     |
-|ontonote4|     |     |     |
 | Resume  |0.9214|0.9497|0.9353|
 
 reference
