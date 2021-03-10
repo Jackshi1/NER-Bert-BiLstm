@@ -102,6 +102,7 @@ class load_data(object):
                 if len(text_sent) > 510:
                     text_sent = text_sent[:510]
                     label_sent = label_sent[:510]
+                    
             pad_len = max_batch_len - len(text_sent) - 2
             batch_seg_ids.append([0]*max_batch_len)
             sent_mask = [1]*(len(text_sent)+2)+[0]*pad_len
