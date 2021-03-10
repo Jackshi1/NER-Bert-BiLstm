@@ -12,4 +12,4 @@ Chinese NER datasets:
 
 how to train
 ----
-### (1) download chinese bert model
+##### (1) download chinese bert model
