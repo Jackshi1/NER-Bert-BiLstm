@@ -9,5 +9,7 @@ Chinese NER datasets:
 *  chinese ontonote4<br>
 *  chinese Resume<br>
 *  chinese MSRA<br>
+
 how to train
 ----
+### (1) download chinese bert model
