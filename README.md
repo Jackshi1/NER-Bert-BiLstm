@@ -26,6 +26,10 @@ how to train
 
 * form file config/config.py change bert_data_path, bert_tag_path, bert_model_path, bert_vocab_path
 
+##### (4) learning rate option
+
+* [2e-5, 3e-5, 4e-5, 5e-5]
+
 result
 ----
 
