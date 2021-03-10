@@ -12,24 +12,24 @@ Chinese NER datasets:
 
 how to train
 ----
-##### (1) download chinese bert model
+##### (1)  download chinese bert model
 
 * git lfs install
 * git clone https://huggingface.co/bert-base-chinese
 
-##### (2) install transformer
+##### (2)  install transformer
 
 * pip install transformers
 * conda install -c huggingface transformers
 
-##### (3) change your own data file path
+##### (3)  change your own data file path
 
 * form file config/config.py change bert_data_path, bert_tag_path, bert_model_path, bert_vocab_path
 
 result
 ----
 
-|datasets |  P  |  R  |  F  |
+|datasets |  P  |  R  |  F1  |
 |-------- |-----|-----|-----|
 |  weibo  |0.6558|0.6304|0.6429|
 | Resume  |0.9214|0.9497|0.9353|
