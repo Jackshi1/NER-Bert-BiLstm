@@ -10,6 +10,6 @@ class params:
     bert_dim = 768
     output_dim = 30
     batch_size = 32
-    adam_lr = 3e-4
-    adamw_lr = 2e-4
+    adam_lr = 3e-5
+    adamw_lr = 2e-5
     epoch = 20
