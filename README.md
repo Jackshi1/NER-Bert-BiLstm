@@ -17,6 +17,26 @@ how to train
 * git lfs install
 * git clone https://huggingface.co/bert-base-chinese
 
-##### (1) install transformer
+##### (2) install transformer
 
 * pip install transformers
+
+##### (3) change your own data file path
+
+* form file config/config.py change bert_data_path, bert_tag_path, bert_model_path, bert_vocab_path
+
+result
+----
+
+|datasets |  P  |  R  |  F  |
+|-------- |-----|-----|-----|
+|  weibo  |     |     |     |
+|  MSRA   |     |     |     |
+|ontonote4|     |     |     |
+| Resume  |     |     |     |
+
+reference
+----
+* https://github.com/huggingface/transformers
+* https://arxiv.org/abs/1810.04805
+* https://ieeexplore.ieee.org/document/818041
