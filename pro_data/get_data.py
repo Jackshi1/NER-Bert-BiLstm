@@ -64,7 +64,7 @@ class load_data(object):
 
         len_data = len(self.text_x)
         train_iter = math.ceil(len_data/self.batch_size)
-        print("total epoch = ", train_iter)
+        print(self.dtype + "total epoch = ", train_iter)
         for i in range(train_iter):
             start, end = i*self.batch_size, (i+1)*self.batch_size
             if end < len_data:
