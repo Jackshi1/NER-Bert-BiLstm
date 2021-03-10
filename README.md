@@ -20,6 +20,7 @@ how to train
 ##### (2) install transformer
 
 * pip install transformers
+* conda install -c huggingface transformers
 
 ##### (3) change your own data file path
 
