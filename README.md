@@ -34,7 +34,7 @@ result
 |  weibo  |0.6558|0.6304|0.6429|
 |  MSRA   |     |     |     |
 |ontonote4|     |     |     |
-| Resume  |0.933|0.9313|0.9325|
+| Resume  |0.9214|0.9497|0.9353|
 
 reference
 ----
