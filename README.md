@@ -13,3 +13,10 @@ Chinese NER datasets:
 how to train
 ----
 ##### (1) download chinese bert model
+
+* git lfs install
+* git clone https://huggingface.co/bert-base-chinese
+
+##### (1) install transformer
+
+* pip install transformers
