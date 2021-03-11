@@ -11,5 +11,5 @@ class params:
     output_dim = 30
     batch_size = 32
     adam_lr = 3e-5
-    adamw_lr = 2e-5
+    adamw_lr = 5e-5
     epoch = 20
