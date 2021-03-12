@@ -14,7 +14,6 @@ how to train
 ----
 ##### (1)  download chinese bert model
 
-* git lfs install
 * git clone https://huggingface.co/bert-base-chinese
 
 ##### (2)  install transformer
