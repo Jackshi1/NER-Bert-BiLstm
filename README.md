@@ -1,4 +1,4 @@
-Chinese Namede Entity Recognition
+Chinese Named Entity Recognition
 ==
 model: Bert+BiLstm  
 loss function: Cross Entropy Error Function<br>
