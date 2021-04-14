@@ -23,7 +23,7 @@ def train():
     test_x, test_y, test_seg_ids, test_mask = test_data.get_batch_data()
 
     # model
-    model = Bertencoder(hp.bert_dim, hp.output_dim)
+    model = Bertencoder(hp.bert_dim, hp.output_dim, hp.num_layers, hp.rnn_dim)
     if use_gpu:
         # use more gpu train model
         #model = Dataparallel(model, device_ids=[0, 1, 2, 3])
