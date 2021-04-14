@@ -7,7 +7,7 @@ class Bertencoder(nn.Module):
     def __init__(self, bert_dim, output_dim, num_layers, rnn_dim):
         super(Bertencoder, self).__init__()
         self.bert_model = AutoModel.from_pretrained(bert_model_path)
-        self.rnn = nn.LSTM(bert_dim, rnn_hidden, num_layers=num_layers, batch_first=True, bidirectional=True)
+        self.rnn = nn.LSTM(bert_dim, rnn_dim, num_layers=num_layers, batch_first=True, bidirectional=True)
         self.linear = nn.Linear(rnn_dim*2, output_dim)
         self.loss_function = nn.CrossEntropyLoss()
 
